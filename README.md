@@ -18,6 +18,18 @@ CKIP BERT-base 的 Apple MLX 原生實作，從 [ckiplab/ckip-transformers](http
 | fp16 | 194 MB | 582 MB | 8GB+ Mac | WS 100% / POS 99.98% / NER 99.99% |
 | q8 | 110 MB | 330 MB | 8GB Mac (吃緊) | WS 100% / POS 99.69% / NER 99.90% |
 
+## 下載模型
+
+模型權重託管於 HuggingFace：[FakeRockert543/ckip-mlx](https://huggingface.co/FakeRockert543/ckip-mlx)
+
+```bash
+# 需要先安裝 huggingface_hub
+pip install huggingface_hub
+
+# 下載全部模型
+huggingface-cli download FakeRockert543/ckip-mlx --local-dir models
+```
+
 ## 安裝
 
 ```bash
