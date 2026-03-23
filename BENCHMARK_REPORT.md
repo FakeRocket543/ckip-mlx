@@ -105,7 +105,7 @@ WS 前 20 詞抽樣比較：與 MLX/HF 完全一致。
 
 | | MLX | CoreML | HF Transformers | CKIP 官方 |
 |---|:---:|:------:|:---------------:|:---------:|
-| Apple Silicon 優化 | ✓ GPU | ✓ ANE+GPU | ✓ MPS | ✓ MPS |
+| Apple Silicon 最佳化 | ✓ GPU | ✓ ANE+GPU | ✓ MPS | ✓ MPS |
 | iOS 可用 | ✗ | ✓ | ✗ | ✗ |
 | Python API | ✓ | ✓ | ✓ | ✓ |
 | Swift API | ✗ | ✓ | ✗ | ✗ |

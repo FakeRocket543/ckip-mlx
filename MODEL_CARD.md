@@ -22,7 +22,7 @@ base_model:
 
 # CKIP BERT-base MLX — 繁體中文 WS/POS/NER
 
-Apple MLX 原生版本的 CKIP BERT-base 繁體中文 NLP 模型，專為 Apple Silicon 優化。
+Apple MLX 原生版本的 CKIP BERT-base 繁體中文 NLP 模型，專為 Apple Silicon 最佳化。
 
 - 📦 原始碼：[GitHub — FakeRocket543/ckip-mlx](https://github.com/FakeRocket543/ckip-mlx)
 - 🤗 模型權重：[HuggingFace — FakeRockert543/ckip-mlx](https://huggingface.co/FakeRockert543/ckip-mlx)（本頁）
