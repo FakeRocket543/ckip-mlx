@@ -108,7 +108,7 @@ WS 前 20 詞抽樣比較：與 MLX/HF 完全一致。
 | Apple Silicon 最佳化 | ✓ GPU | ✓ ANE+GPU | ✓ MPS | ✓ MPS |
 | iOS 可用 | ✗ | ✓ | ✗ | ✗ |
 | Python API | ✓ | ✓ | ✓ | ✓ |
-| Swift API | ✗ | ✓ | ✗ | ✗ |
+| Swift API | ✓ | ✓ | ✗ | ✗ |
 | 動態長度 1-512 | ✓ | ✓ | ✓ | ✓ |
 | 量化 (q8) | ✓ | ✓ | ✗ (API 已移除) | ✗ |
 | 安裝依賴 | mlx | coremltools | torch+transformers | torch+ckip-transformers |
