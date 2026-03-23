@@ -1,0 +1,35 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+
+# macOS
+.DS_Store
+
+# Model weights (too large for git, host on HuggingFace)
+models/*/weights.safetensors
+models/*/model.safetensors
+models/*/vocab.txt
+models/vocab.txt
+models/*-hf-fp16/
+
+# Test results
+result_*.json
+wiki_taiwan*.json
+wiki_taiwan.txt
+
+# ONNX
+*.onnx
+*.onnx.data
+
+# Intermediate dev scripts
+benchmark.py
+benchmark_mlx.py
+benchmark_3way.py
+benchmark_full.py
+test_quantize.py
+verify_variants.py
+demo_wiki_variants.py
