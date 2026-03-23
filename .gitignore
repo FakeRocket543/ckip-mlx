@@ -25,11 +25,4 @@ wiki_taiwan.txt
 *.onnx
 *.onnx.data
 
-# Intermediate dev scripts
-benchmark.py
-benchmark_mlx.py
-benchmark_3way.py
-benchmark_full.py
-test_quantize.py
-verify_variants.py
-demo_wiki_variants.py
+
